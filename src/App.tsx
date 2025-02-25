@@ -1,32 +1,32 @@
-import { useEffect, useState } from 'react'
-import { useTranslation } from 'react-i18next'
+// import { useEffect, useState } from 'react'
+// import { useTranslation } from 'react-i18next'
 import { Home } from './components/home'
 import { Event } from './components/event';
 import { BrideAndGroom } from './components/bride_and_groom';
 import { Family } from './components/family';
 import { Gallery } from './components/gallery';
 import { Friend } from './components/friend';
-import { Testimonial } from './components/Testimonial';
 import { Contact } from './components/contact';
+import { Testimonial } from './components/testimonial';
 
 function App() {
   // const [count, setCount] = useState(0)
   // const { i18n, t } = useTranslation()
-  const addScript = (url: string): HTMLScriptElement => {
-    const script = document.createElement("script");
-    script.src = url;
-    script.async = true;
-    document.body.appendChild(script);
-    return script;
-  }
+  // const addScript = (url: string): HTMLScriptElement => {
+  //   const script = document.createElement("script");
+  //   script.src = url;
+  //   script.async = true;
+  //   document.body.appendChild(script);
+  //   return script;
+  // }
 
-  const loadScript = (url: string[]) : HTMLScriptElement[] => {
-    const result: HTMLScriptElement[] = [];
-    url.forEach((url) => {
-      result.push(addScript(url));
-    });
-    return result;
-  }
+  // const loadScript = (url: string[]) : HTMLScriptElement[] => {
+  //   const result: HTMLScriptElement[] = [];
+  //   url.forEach((url) => {
+  //     result.push(addScript(url));
+  //   });
+  //   return result;
+  // }
   
   // useEffect(() => {
   //   const urls: string[] = [
