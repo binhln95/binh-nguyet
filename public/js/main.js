@@ -1,8 +1,5 @@
 $(document).ready(function() {
-	
-	// Header Scroll
 	$(window).on('scroll', function() {
-		console.log("binhln loaded")
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 50) {
